@@ -87,6 +87,9 @@ public class Program
 	
 	public static double Power(string x, string y)
 	{
+		if (x == null || y == null)
+			throw new ArgumentNullException();
+
 		return Math.Pow(Convert.ToDouble(x), Convert.ToDouble(y));
 	}
 }
