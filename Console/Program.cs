@@ -85,8 +85,8 @@ public class Program
 
 	// Implement this method following a similar pattern as above
 	
-	public static double Power(double baseNum, int exponent)
+	public static double Power(string x, string y)
 	{
-		return Math.Pow(baseNum, exponent);
+		return Math.Pow(Convert.ToDouble(x), Convert.ToDouble(y));
 	}
 }
