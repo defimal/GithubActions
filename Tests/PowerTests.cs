@@ -6,7 +6,7 @@ public class PowerTests
     [TestMethod]
     public void Power_Valid_Kapaba()
     {
-        Assert.AreEqual(9, Program.Power("2", "3"));
+        Assert.AreEqual(8, Program.Power("2", "3"));
         Assert.AreEqual(1, Program.Power("5", "0"));
         Assert.AreEqual(16, Program.Power("4", "2"));
     }
